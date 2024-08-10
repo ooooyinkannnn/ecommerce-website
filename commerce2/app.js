@@ -50,7 +50,7 @@ function displayProducts(products) {
 function displayCategories(categories) {
     const container = document.getElementById('category-container');
     container.innerHTML = ''; // Clear any existing content
-    let images = ['/images/electronics.png', '/images/jewelry.png', '/images/men.png', '/images/women.png']
+    let images = ['./images/electronics.png', './images/jewelry.png', './images/men.png', './images/women.png']
     let iteration = 0
     categories.forEach(category => {
         const productCard = `
